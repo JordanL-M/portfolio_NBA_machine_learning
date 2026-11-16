@@ -1,0 +1,30 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python.terminal.activateEnvironment": true,
+
+    "editor.formatOnSave": true,
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    "files.exclude": {
+        "**/.pytest_cache": true,
+        "**/__pycache__": true
+    },
+
+    "search.exclude": {
+        "**/.venv": true,
+        "**/__pycache__": true
+    },
+
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false
+}
